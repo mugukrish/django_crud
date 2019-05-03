@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Feed page</title>
+  </head>
+  <body>
+    <form class="form" action="" method="POST">
+      {% csrf_token %}
+      Enter Feed
+      <textarea name="feed_entered" rows="8" cols="80"></textarea>
+      <input type="submit" name="submit" value="enter">
+
+    </form>
+
+  </body>
+</html>
